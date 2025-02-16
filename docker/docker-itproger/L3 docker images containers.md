@@ -8,7 +8,7 @@
 - client - docker desktop или docker cli, которые принимают команды
 - docker host - распознает команды и обрабатывает их (docker daemon)
 - registry - место хранения образов (docker hub)
-Пример: выполняем **docker pull** - срабатывает **docker daemon**, который находит образ в registry (например в docker hub), скачивает этот образ.
+Пример: выполняем **docker pull** - срабатывает **docker daemon**, который находит образ в ree cgistry (например в docker hub), скачивает этот образ.
 
 .Dockerfile - специальный файл, в котором можно описать подключение всех необходимых образов.
 
@@ -46,9 +46,15 @@ docker start %container_name%
 docker kill %container-name%
 ```
 
+#### Удаление контейнера
+```
+docker rm %container_id%
+```
+
 #### пример - скачиваем ubuntu
 ```
 docker pull ubuntu
 docker run -it --name MyUbuntu ubuntu
 ```
 И все, перед нами терминал нашей убунты
+
