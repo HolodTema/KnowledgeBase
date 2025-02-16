@@ -1,0 +1,13 @@
+Some useful search filters:
+
+filetype:pdf - find all the pages, which are pdf file
+
+inurl:login - find all the pages, which url contains 'login' word
+
+intext:someText - find all the pages, which content contains 'someText'
+
+intitle: - find all the pages, which <title></title> contains some text
+
+link: - find all the pages of specific url, for example link:example.com
+
+site: - to search within a specific site
